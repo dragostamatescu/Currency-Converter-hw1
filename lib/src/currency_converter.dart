@@ -80,12 +80,12 @@ class _HomePageState extends State<HomePage> {
                 } else {
                   setState(() {
                     errorText = null;
-                    amount = (double.parse(controller.text) * 4.95).toStringAsFixed(2);
+                    amount = (double.parse(controller.text) * 4.95).toStringAsFixed(2) + ' RON';
                   });
                 }
               },
             ),
-            Text('$amount RON', textScaleFactor: 1.5)
+            Text(amount, textScaleFactor: 1.5)
           ],
         )
       )
