@@ -1,3 +1,5 @@
 # currency_converter
 
-Prima tema din cadrul cursului Flutter
+An app that convert EUR to RON
+
+https://www.youtube.com/watch?v=cPIThIPBlPc
